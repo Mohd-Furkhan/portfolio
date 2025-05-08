@@ -1,0 +1,92 @@
+.rainbow-text {
+    font-weight: bold;
+    background: linear-gradient(
+      90deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbowAnimation 5s linear infinite;
+  }
+  
+  @keyframes rainbowAnimation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 300%;
+    }
+  }
+  a
+  {
+    color: white;
+  }
+
+  .rainbow-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .rainbow-btn:hover {
+    border-color: transparent;
+    background: linear-gradient(
+      90deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    background-size: 300%;
+    animation: rainbowAnimation 1s linear infinite;
+  }
+
+  @keyframes rainbowAnimation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 300%;
+    }
+  }
+
+  .rainbow-text {
+    font-weight: bold;
+    background: linear-gradient(
+      90deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbowAnimation 5s linear infinite;
+  }
+
+  a {
+    color: white;
+  }
