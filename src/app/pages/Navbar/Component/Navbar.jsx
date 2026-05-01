@@ -12,7 +12,7 @@ function Navbar()
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="https://mohd-furkhan.github.io/portfolio/">
+          <Link className="navbar-brand" to="/">
             &lt; Mohammed Furkhan /&gt;
           </Link>
           <button className="navbar-toggler" type="button">
