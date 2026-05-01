@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.978e00b7.css",
-    "main.js": "/portfolio/static/js/main.9ee4dcd7.js",
+    "main.js": "/portfolio/static/js/main.4b30b6b2.js",
+    "static/media/Profile.jpg": "/portfolio/static/media/Profile.7d0e346506b4cf075ae9.jpg",
     "static/media/React.png": "/portfolio/static/media/React.81ed438b18e24116794d.png",
     "static/media/Visual Studio Code.png": "/portfolio/static/media/Visual Studio Code.19edc3fbac1c451f289d.png",
     "static/media/CSS.png": "/portfolio/static/media/CSS.0c8ef7b1eb4a836eabc2.png",
-    "static/media/Profile.jpg": "/portfolio/static/media/Profile.43c40929da682db0f88d.jpg",
     "static/media/Restaurant_Home_Page.JPG": "/portfolio/static/media/Restaurant_Home_Page.83a1befa44fb53b8110a.JPG",
     "static/media/FileZilla.png": "/portfolio/static/media/FileZilla.2d4436234b75856e7c48.png",
     "static/media/MyPortfolio_Home_Page.png": "/portfolio/static/media/MyPortfolio_Home_Page.bb07848c6568ef71354b.png",
@@ -24,10 +24,10 @@
     "static/media/JavaScript.png": "/portfolio/static/media/JavaScript.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
     "main.978e00b7.css.map": "/portfolio/static/css/main.978e00b7.css.map",
-    "main.9ee4dcd7.js.map": "/portfolio/static/js/main.9ee4dcd7.js.map"
+    "main.4b30b6b2.js.map": "/portfolio/static/js/main.4b30b6b2.js.map"
   },
   "entrypoints": [
     "static/css/main.978e00b7.css",
-    "static/js/main.9ee4dcd7.js"
+    "static/js/main.4b30b6b2.js"
   ]
 }
