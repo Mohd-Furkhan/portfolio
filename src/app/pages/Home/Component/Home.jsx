@@ -8,7 +8,11 @@ import Resume from "../../Resume/Component/Resume.jsx";
 import Contact from "../../Contact/Component/Contact.jsx";
 import "./Home.css";
 
-function Home() {
+function Home() 
+{
+  // Hooks start
+
+  // Hooks end
   return (
     <>
       <div id="top" className="container-fluid col-xxl-8 px-5">
@@ -22,9 +26,7 @@ function Home() {
             />
           </div>
           <div id="top" className="col-lg-6">
-            <h1 className="display-5">
-              Hey there! I’m Mohammed Furkhan.
-            </h1>
+            <h1 className="display-5">Hey there! I’m Mohammed Furkhan.</h1>
             <p className="lead">
               A Computer Science graduate, and a passionate &nbsp;
               <br />
@@ -32,9 +34,8 @@ function Home() {
                 <Typewriter
                   words={[
                     "Frontend Developer.",
-                    "Web Developer.",
                     "React Developer.",
-                    "Software Developer.",
+                    "Aspiring Full Stack Developer.",
                   ]}
                   loop={true}
                   cursor
@@ -46,7 +47,9 @@ function Home() {
               </span>
             </p>
             <p>
-              I enjoy creating websites that look good, run fast, and work well on both mobile and desktop. I use modern technologies to build simple and user-friendly experiences for users.
+              I enjoy creating websites that look good, run fast, and work well
+              on both mobile and desktop. I use modern technologies to build
+              simple and user-friendly experiences for users.
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <Link to="/contact">
@@ -98,7 +101,7 @@ function Home() {
         <About />
         <Projects />
         <Skills />
-        <Resume />
+        {/* <Resume /> */}
       </div>
       <Contact />
       <button
@@ -107,7 +110,12 @@ function Home() {
           document.body.scrollTo({ top: 0, behavior: "smooth" });
         }}
         className="rainbow-btn border-0 bg-transparent p-0"
-        style={{ position: "fixed", bottom: "1rem", right: "1rem", zIndex: 1000 }}
+        style={{
+          position: "fixed",
+          bottom: "1rem",
+          right: "1rem",
+          zIndex: 1000,
+        }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

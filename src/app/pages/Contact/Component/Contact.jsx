@@ -7,8 +7,8 @@ import Footer from "../../Footer/Component/Footer";
 
 function Contact() 
 {
-  // Hooks Start
-  const formInititalValues = {
+  // Hooks start
+  const formInititalValues = { 
     name: "",
     email: "",
     message: "",
@@ -77,11 +77,11 @@ function Contact()
       }
     }      
   });  
-  // Hooks End
+  // Hooks end
 
-  // Functions Start
+  // Functions start
   
-  // Functions End
+  // Functions end
   return (
     <>
       <div
@@ -139,10 +139,10 @@ function Contact()
             <div className="mb-4 text-center">
               <a
                 className="btn rounded-circle"
-                href="mailto:mfurkhan955@gmail.com"
+                href="https://mail.google.com/"
                 target="_blank"
-                style={{ backgroundColor: "white" }}
                 title="Gmail"
+                style={{ backgroundColor: "white" }}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +233,9 @@ function Contact()
                 <span className="text-danger">{formik.errors.message}</span>
               </div>
               <div className="mb-3 text-center">
-                <button type="submit" className="bn5">Send Message</button>
+                <button type="submit" className="bn5">
+                  Send message
+                </button>
               </div>
             </form>
           </div>

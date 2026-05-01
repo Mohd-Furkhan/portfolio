@@ -28,14 +28,9 @@ function Footer()
                         Skills
                     </Link>
                     </li>
-                    <li class="nav-item footer-btn">
-                    <Link className="nav-link text-light" to="/contact">
-                        Contact
-                    </Link>
-                    </li>
                 </ul>
                 <p class="text-center text-light">
-                    © Copyright 2025 All rights reserved. <br /> 
+                    © Copyright 2026 All rights reserved. <br /> 
                     <span>Designed by &lt; Mohammed Furkhan /&gt;</span>
                 </p>
             </footer>

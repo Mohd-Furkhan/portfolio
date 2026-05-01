@@ -9,7 +9,8 @@ import Contact from "./pages/Contact/Component/Contact.jsx";
 import Resume from "./pages/Resume/Component/Resume.jsx";
 import Footer from "./pages/Footer/Component/Footer.jsx";
 
-function App() {
+function App()
+{
   return (
     <HashRouter>
       <Navbar />
