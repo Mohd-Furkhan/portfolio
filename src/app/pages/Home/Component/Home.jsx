@@ -72,7 +72,11 @@ function Home()
                   &nbsp;Hire me
                 </button>
               </Link>
-              <a href="/assets/Mohammed Furkhan.pdf" target="_blank" download>
+              <a
+                href={process.env.PUBLIC_URL + "/assets/mohammed-furkhan.pdf"}
+                target="_blank"
+                download
+              >
                 <button type="button" className="bn5 btn btn-lg">
                   <svg
                     width="22"
