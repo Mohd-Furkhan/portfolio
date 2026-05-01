@@ -73,7 +73,7 @@ function Home()
                 </button>
               </Link>
               <a
-                href={process.env.PUBLIC_URL + "/assets/mohammed-furkhan.pdf"}
+                href={process.env.PUBLIC_URL + "/assets/MohammedFurkhan.pdf"}
                 target="_blank"
                 download
               >

@@ -7,7 +7,6 @@ function About() {
       <h1 className="text-center mb-5">All about me</h1>
 
       <div className="row align-items-start">
-        
         {/* LEFT SIDE IMAGE */}
         <div className="col-md-5 text-center">
           <img
@@ -19,18 +18,21 @@ function About() {
 
         {/* RIGHT SIDE */}
         <div className="col-md-7">
-          
           <p>
-            Hi, I'm <strong>Mohammed Furkhan 👋🏻</strong>. I have been a 
-            <strong> computer enthusiast </strong> since childhood and I enjoy 
+            Hi, I'm <strong>Mohammed Furkhan 👋🏻</strong>. I have been a
+            <strong> computer enthusiast </strong> since childhood and I enjoy
             creating websites and bringing them live on the Internet.
           </p>
 
-          <p>I'm a passionate <strong>React Developer</strong> who loves building modern, responsive, and user-friendly web applications.</p>
+          <p>
+            I'm a passionate <strong>React Developer</strong> who loves building
+            modern, responsive, and user-friendly web applications.
+          </p>
 
           <p className="mb-4">
             I enjoy working on interactive UI, writing clean and maintainable
-            code, and continuously learning new technologies to improve my skills.
+            code, and continuously learning new technologies to improve my
+            skills.
           </p>
 
           {/* Experience */}
@@ -76,11 +78,9 @@ function About() {
               </p>
             </div>
           </div>
-
         </div>
-
       </div>
-    </div>
+    </div> 
   );
 }
 
