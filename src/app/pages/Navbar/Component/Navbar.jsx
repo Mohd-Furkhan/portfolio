@@ -12,9 +12,9 @@ function Navbar()
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="https://mohd-furkhan.github.io/portfolio/">
-            &lt; Mohammed Furkhan /&gt;
-          </Link>
+         <a className="navbar-brand" href="/portfolio/#/">
+  &lt; Mohammed Furkhan /&gt;
+</a>
           <button className="navbar-toggler" type="button">
             <svg
               data-bs-toggle="offcanvas"

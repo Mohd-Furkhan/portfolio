@@ -85,7 +85,7 @@ function Contact()
   return (
     <>
       <div
-        className="card container-fluid col-xxl-8 px-5 "
+        className="card container py-5 "
         style={{ backgroundColor: "#212528", color: "white" }}
       >
         <br />
