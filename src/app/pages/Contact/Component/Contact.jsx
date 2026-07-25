@@ -92,6 +92,10 @@ function Contact()
         <div className="row">
           <h6 className="text-center">ASK ME A QUESTION</h6>
           <h1 className="text-center">Contact me</h1>
+          <p className="text-center text-light mb-4">
+            Feel free to contact me for job opportunities, freelance projects,
+            or collaborations.
+          </p>
           <br />
           <div className="col-lg-1">
             <div className="mb-4 text-center">
